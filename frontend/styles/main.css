@@ -41,6 +41,7 @@ header {
 header h1,
 header p {
   color: #fff;
+  text-shadow: 2px 2px 6px #000;
 }
 header h1 {
   font-family: "Playfair Display", serif;
@@ -168,7 +169,7 @@ header .btn-get-started:hover {
   min-height: 380px;
 }
 .section-testimonial-content .card-testimonial h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 .section-testimonial-content .card-testimonial .testimonial {
   font-weight: 200;
