@@ -1,26 +1,26 @@
 body {
   background-color: #ffffff;
-  font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
 }
 
 // Navbar
 .navbar-brand {
   img {
-      max-height: 40px;
+    max-height: 40px;
   }
 }
 
 .navbar-light {
   .navbar-nav {
-      .nav-link {
-          color: #071C4D;
+    .nav-link {
+      color: #071c4d;
 
-          &.active {
-              font-weight: bold;
-              color: #071C4D !important;
-          }
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
       }
+    }
   }
 }
 
@@ -34,47 +34,50 @@ body {
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #fff;
 
   &:hover {
-      background-color: #1E3771;
-      color: #fff;
+    background-color: #1e3771;
+    color: #fff;
   }
 }
 // Akhir Navbar
 
 // Header
 header {
-  padding: 180px 0 165px;
+  // mobile
+  padding: 70px 0 165px;
   // margin-top: -70px;
-  background-image: url('../images/header.jpg');
+  background-image: url("../images/header.jpg");
   background-size: cover;
 
-  h1, 
+  h1,
   p {
-      color: #fff;
-      text-shadow: 2px 2px 6px #000;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
   }
 
   h1 {
-      font-family: 'Playfair Display', serif;
-      font-weight: bold;
-      font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    // mobile
+    font-size: 30px;
   }
 
   p {
-      font-size: 22px;
+    // mobile
+    font-size: 18px;
   }
 
   .btn-get-started {
-      background-color: #FF9E53;
-      color: #fff;
+    background-color: #ff9e53;
+    color: #fff;
 
-      &:hover {
-          background-color: #FFAA69;
-          color: #fff;
-      }
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
+    }
   }
 }
 // Akhir Header
@@ -84,83 +87,88 @@ header {
   margin-top: -50px;
 
   .stats-detail {
-      padding-top: 15px;
-      background-color: #fff;
-      padding-left: 40px;
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
   }
 
   h2 {
-      font-size: 30px;
-      margin-bottom: 0;
+    // mobile
+    font-size: 22px;
+    margin-bottom: 0;
   }
 
   p {
-      font-size: 20px;
-      font-weight: lighter;
+    // mobile
+    font-size: 12px;
+    // font-weight: lighter;
   }
 }
 // Akhir Statistics
 
 // Popular
 .section-popular {
-  min-height: 540px;
+  // mobile
+  min-height: 440px;
   background-color: #051334;
   margin-top: -50px;
   margin-bottom: -230px;
 
   .section-popular-heading {
-      margin-top: 150px;
+    // mobile
+    margin-top: 80px;
 
-      h2,
-      p {
-          color: #fff;
-      }
+    h2,
+    p {
+      color: #fff;
+    }
 
-      h2 {
-          font-family: 'Playfair Display', serif;
-          font-weight: bold;
-          font-size: 40px;
-      }
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      // mobile
+      font-size: 26px;
+    }
 
-      p {
-          font-size: 18px;
-      }
+    p {
+      font-size: 18px;
+    }
   }
-
 }
+// Akhir popular
 
 .section-popular-content {
   .section-popular-travel {
-      .card-travel {
-          min-height: 380px;
-          background-color: #DDD;
+    .card-travel {
+      min-height: 380px;
+      background-color: #ddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      color: #fff;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #ff9e53;
+        color: #fff;
+
+        &:hover {
+          background-color: #ffae6f;
           color: #fff;
-          padding: 30px;
-          background-size: cover;
-          margin-bottom: 20px;
+        }
       }
-
-      .travel-country {
-          font-size: 18px;
-          color: #fff;
-      }
-
-      .travel-location {
-          font-size: 26px;
-          color: #fff;
-      }
-
-      .travel-button {
-          .btn-travel-details {
-              background-color: #FF9E53;
-              color: #fff;
-
-              &:hover {
-                  background-color: #FFAE6F;
-                  color: #fff;
-              }
-          }
-      }
+    }
   }
 }
 // Akhir Popular
@@ -172,17 +180,17 @@ header {
   padding-bottom: 50px;
 
   h2 {
-      font-family: 'Playfair Display', serif;
-      font-weight: bold;
-      font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
   }
 
   p {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   img {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -192,82 +200,84 @@ header {
   min-height: 506px;
 
   h2 {
-      font-family: "Playfair Display", serif;
-      font-weight: bold;
-      font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
   }
 
   p {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
 
 .section-testimonial-content {
   margin-top: -300px;
-  padding-bottom: 50px;
+  // mobile
+  padding-bottom: 0px;
 
   .card-testimonial {
-      padding: 40px 20px 10px;
-      border-radius: 11px;
-      margin-bottom: 20px;
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
 
-      .testimonial-content {
-          min-height: 380px;
-      }
+    .testimonial-content {
+      min-height: 380px;
+    }
 
-      h3 {
-          font-size: 20px;
-      }
+    h3 {
+      // mobile
+      font-size: 16px;
+    }
 
-      .testimonial {
-          font-weight: 200;
-          font-size: 26px;
-          color: #6e6e6e;
-          min-height: 160px;
-      }
+    .testimonial {
+      font-weight: 200;
+      font-size: 26px;
+      color: #6e6e6e;
+      min-height: 160px;
+    }
 
-      .trip-to {
-          font-weight: normal;
-          font-size: 22px;
-          color: #6e6e6e;
-      }
+    .trip-to {
+      font-weight: normal;
+      font-size: 22px;
+      color: #6e6e6e;
+    }
 
-      hr {
-          margin-left: -20px;
-          margin-left: -20px;
-      }
+    hr {
+      margin-left: -20px;
+      margin-left: -20px;
+    }
   }
 
   .btn-get-started {
-      background-color: #FF9E53;
-      color: #fff;
+    background-color: #ff9e53;
+    color: #fff;
 
-      &:hover {
-          background-color: #FFAA69;
-          color: #fff;
-      }
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
+    }
   }
 
   .btn-need-help {
-      background-color: #F2F2F2;
-      color: #C3C3C3;
+    background-color: #f2f2f2;
+    color: #c3c3c3;
 
-      &:hover {
-          background-color: #FAFAFA;
-          color: #C3C3C3;
-      }
+    &:hover {
+      background-color: #fafafa;
+      color: #c3c3c3;
+    }
   }
 }
 
 .section-footer {
   a {
-      color: #071C4D;
+    color: #071c4d;
   }
 }
 
 .section-details-header {
   min-height: 310px;
-  background: #E4E6EB;
+  background: #e4e6eb;
   margin-top: -70px;
 }
 
@@ -276,204 +286,201 @@ header {
   min-height: 100vh;
 
   .breadcrumb {
-      background-color: transparent;
-      padding: 0;
-      margin-bottom: 30px;
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
   }
 
   .breadcrumb-item {
-      &.active {
-          font-weight: bold;
-          color: #071C4D;
-      }
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
   }
 
   .card-details {
-      padding: 30px;
-      border-radius: 11px;
+    padding: 30px;
+    border-radius: 11px;
 
-      h1 {
-          font-size: 26px;
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 14px;
+      color: #071c4d;
+    }
+
+    .trip-informations {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
       }
 
-      h2 {
-          font-size: 20px;
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
       }
 
-      p {
+      .text-blue {
+        color: #071c4d;
+        font-weight: bold;
+      }
+
+      .text-orange {
+        color: #ff9e53;
+        font-weight: bold;
+      }
+    }
+
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .bank {
+      .bank-item {
+        h3 {
           font-size: 18px;
-          color: #B1B1B1;
-      }
-
-      h3 {
-          font-weight: 300;
-          font-size: 14px;
           color: #071c4d;
-      }
-
-      .trip-informations {
-          th {
-              font-weight: 300;
-              font-size: 18px;
-              color: #071C4D;
-          }
-
-          td {
-              font-weight: 300;
-              font-size: 18px;
-              color: #B1B1B1;
-          }
-
-          .text-blue {
-              color: #071C4D;
-              font-weight: bold;
-          }
-
-          .text-orange {
-              color: #FF9E53;
-              font-weight: bold;
-          }
-      }
-
-      .payment-instructions {
-          font-weight: 300;
-          font-size: 14px;
-          color: #b1b1b1;
-      }
-
-      .bank {
-          .bank-item {
-              h3 {
-                  font-size: 18px;
-                  color: #071C4D;
-                  margin-bottom: 0;
-              }
-
-              p {
-                  margin-bottom: 0;
-              }
-
-              .description {
-                  margin-left: 10px;
-                  overflow: hidden;
-                  float: left;
-
-                  p {
-                      font-weight: normal;
-                      font-size: 16px;
-                      color: #14388b;
-                  }
-              }
-          }
-
-          .bank-image {
-              width: 45px;
-              height: 45px;
-              float: left;
-          }
-      }
-
-      .disclaimer {
-          font-weight: 300;
-          font-size: 14px;
-          color: #B1B1B1;
-      }
-
-      .gj-datepicker {
-          .datepicker {
-              border-right: 0;
-          }
-
-          .input-group-append {
-              .btn {
-                  padding-right: 30px;
-              }
-          }
-      }
-
-      .btn-add-now {
-          background-color: #071C4D;
-          color: #fff;
-
-         &:hover {
-          background-color: #1B3B86;
-          color: #fff;
-         }
-      }
-
-
-
-  }
-
-  .card-right {
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
-      border-bottom: 0;
-  }
-
-  .features {
-      margin-top: 20px;
-
-      h3 {
-          font-size: 18px;
-          color: #071C4D;
           margin-bottom: 0;
-      }
+        }
 
-      p {
+        p {
           margin-bottom: 0;
-      }
+        }
 
-      .description {
+        .description {
           margin-left: 10px;
           overflow: hidden;
           float: left;
+
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            color: #14388b;
+          }
+        }
       }
 
-      .features-image {
-          width: 45px;
-          height: 45px;
-          float: left;
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
       }
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .gj-datepicker {
+      .datepicker {
+        border-right: 0;
+      }
+
+      .input-group-append {
+        .btn {
+          padding-right: 30px;
+        }
+      }
+    }
+
+    .btn-add-now {
+      background-color: #071c4d;
+      color: #fff;
+
+      &:hover {
+        background-color: #1b3b86;
+        color: #fff;
+      }
+    }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
   }
 
   .gallery {
-      .xzoom-container {
-          display: block;
+    .xzoom-container {
+      display: block;
 
-          .xzoom {
-              width: 100%;
-              box-shadow: none;
-              margin-bottom: 10px;
-          }
-
-          .xactive {
-              border: 4px solid #1ABC9C;
-              box-shadow: none;
-          }
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
       }
+
+      .xactive {
+        border: 4px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
   }
 
   .member {
-      .member-image {
-          width: 40px;
-          height: 40px;
-      }
+    .member-image {
+      width: 40px;
+      height: 40px;
+    }
   }
 
   .join-container {
-      margin-top: -16px;
+    margin-top: -16px;
   }
 
   .btn-join-now {
-      background-color: #FF9E53;
-      color: #fff;
-      border-radius: 0;
+    background-color: #ff9e53;
+    color: #fff;
+    border-radius: 0;
 
-      &:hover {
-          background-color: #FFB57C;
+    &:hover {
+      background-color: #ffb57c;
       color: #fff;
-      }
+    }
   }
 }
 
@@ -481,38 +488,39 @@ header {
   height: 90vh;
 
   h1 {
-      font-weight: 600;
-      font-size: 26px;
-      color: #071C4D;
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
   }
 
   p {
-      font-weight: 300;
-      font-size: 18px;
-      color: #b1b1b1;
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
   }
 
   .btn-home-page {
-      border-radius: 4px;
-      background-color: #071C4D;
-      color: #fff;
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #fff;
 
-      &:hover {
-          background-color: #2A488E;
+    &:hover {
+      background-color: #2a488e;
       color: #fff;
-      }
+    }
   }
 }
 
 // Modify
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 .row {
   .card-details {
-      h1 {
-          font-weight: bold;
-      }
+    h1 {
+      font-weight: bold;
+    }
   }
 }
 // Akhir Modify
@@ -523,17 +531,26 @@ header {
 }
 .container {
   .sejarah {
-      text-align: justify;
+    text-align: justify;
   }
 }
 div {
   .card-bayangan {
-      box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
   }
 }
 footer {
   h5 {
-      font-weight: bold;
+    font-weight: bold;
+    // mobile
+    font-size: 16px;
+  }
+  a {
+    // mobile
+    font-size: 14px;
+  }
+  .copyright {
+    font-size: 12px;
   }
 }
 // Akhir Index
@@ -541,36 +558,43 @@ footer {
 // Surat
 .section-popular-content {
   .section-popular-travel {
-      .card-travel {
-          box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-          padding: 10px;
-          h1 {
-              font-weight: bold;
-          }
+    .card-travel {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      h1 {
+        font-weight: bold;
       }
+    }
   }
 }
 .surat {
-  position: relative;;
-  
+  position: relative;
 }
 .surat::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 50%;
-  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0)
+  );
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 .surat:hover::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 105%;
-  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0)
+  );
   position: absolute;
   bottom: 0;
   left: 0;
@@ -582,7 +606,7 @@ footer {
 .card-details a:hover {
   text-decoration: none;
   h1 {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
 // Akhir Surat
@@ -590,17 +614,72 @@ footer {
 // Organisasi
 .struktur {
   .jabatan {
-      font-weight: bold;
+    font-weight: bold;
   }
   .pendeta {
-      font-weight: 600;
+    font-weight: 600;
   }
 }
 // Akhir Organisasi
 
 // DESKTOP VERSION
 @media (min-width: 992px) {
+  // Header
   header {
-      margin-top: -70px;
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+  // Akhir Header
+  // Statistics
+  .section-stats {
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  // Akhir Statistics
+  // Popular
+  .section-popular {
+    min-height: 540px;
+
+    .section-popular-heading {
+      margin-top: 150px;
+      h2 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  // Akhir popular
+  .section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 10px;
+    .card-testimonial {
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+  footer {
+    h5 {
+      font-size: 18px;
+    }
+    a {
+      font-size: 16px;
+    }
+    .copyright {
+      font-size: 16px;
+    }
   }
 }

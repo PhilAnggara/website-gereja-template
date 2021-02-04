@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: "Assistant", sans-serif;
-  color: #071C4D;
+  color: #071c4d;
 }
 
 .navbar-brand img {
@@ -9,11 +9,11 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #071C4D;
+  color: #071c4d;
 }
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
-  color: #071C4D !important;
+  color: #071c4d !important;
 }
 
 .btn-navbar-right {
@@ -25,38 +25,38 @@ body {
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #fff;
 }
 .btn-login:hover {
-  background-color: #1E3771;
+  background-color: #1e3771;
   color: #fff;
 }
 
 header {
-  padding: 180px 0 165px;
+  padding: 70px 0 165px;
   background-image: url("../images/header.jpg");
   background-size: cover;
 }
 header h1,
 header p {
   color: #fff;
-  text-shadow: 2px 2px 6px #000;
+  text-shadow: 0px 0px 5px #000;
 }
 header h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
 }
 header p {
-  font-size: 22px;
+  font-size: 18px;
 }
 header .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #fff;
 }
 header .btn-get-started:hover {
-  background-color: #FFAA69;
+  background-color: #ffaa69;
   color: #fff;
 }
 
@@ -69,22 +69,21 @@ header .btn-get-started:hover {
   padding-left: 40px;
 }
 .section-stats h2 {
-  font-size: 30px;
+  font-size: 22px;
   margin-bottom: 0;
 }
 .section-stats p {
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 12px;
 }
 
 .section-popular {
-  min-height: 540px;
+  min-height: 440px;
   background-color: #051334;
   margin-top: -50px;
   margin-bottom: -230px;
 }
 .section-popular .section-popular-heading {
-  margin-top: 150px;
+  margin-top: 80px;
 }
 .section-popular .section-popular-heading h2,
 .section-popular .section-popular-heading p {
@@ -93,7 +92,7 @@ header .btn-get-started:hover {
 .section-popular .section-popular-heading h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 26px;
 }
 .section-popular .section-popular-heading p {
   font-size: 18px;
@@ -101,7 +100,7 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
-  background-color: #DDD;
+  background-color: #ddd;
   color: #fff;
   padding: 30px;
   background-size: cover;
@@ -116,11 +115,11 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #fff;
 }
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
-  background-color: #FFAE6F;
+  background-color: #ffae6f;
   color: #fff;
 }
 
@@ -158,7 +157,7 @@ header .btn-get-started:hover {
 
 .section-testimonial-content {
   margin-top: -300px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 .section-testimonial-content .card-testimonial {
   padding: 40px 20px 10px;
@@ -169,7 +168,7 @@ header .btn-get-started:hover {
   min-height: 380px;
 }
 .section-testimonial-content .card-testimonial h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 .section-testimonial-content .card-testimonial .testimonial {
   font-weight: 200;
@@ -187,29 +186,29 @@ header .btn-get-started:hover {
   margin-left: -20px;
 }
 .section-testimonial-content .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #fff;
 }
 .section-testimonial-content .btn-get-started:hover {
-  background-color: #FFAA69;
+  background-color: #ffaa69;
   color: #fff;
 }
 .section-testimonial-content .btn-need-help {
-  background-color: #F2F2F2;
-  color: #C3C3C3;
+  background-color: #f2f2f2;
+  color: #c3c3c3;
 }
 .section-testimonial-content .btn-need-help:hover {
-  background-color: #FAFAFA;
-  color: #C3C3C3;
+  background-color: #fafafa;
+  color: #c3c3c3;
 }
 
 .section-footer a {
-  color: #071C4D;
+  color: #071c4d;
 }
 
 .section-details-header {
   min-height: 310px;
-  background: #E4E6EB;
+  background: #e4e6eb;
   margin-top: -70px;
 }
 
@@ -224,7 +223,7 @@ header .btn-get-started:hover {
 }
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
-  color: #071C4D;
+  color: #071c4d;
 }
 .section-details-content .card-details {
   padding: 30px;
@@ -238,7 +237,7 @@ header .btn-get-started:hover {
 }
 .section-details-content .card-details p {
   font-size: 18px;
-  color: #B1B1B1;
+  color: #b1b1b1;
 }
 .section-details-content .card-details h3 {
   font-weight: 300;
@@ -248,19 +247,19 @@ header .btn-get-started:hover {
 .section-details-content .card-details .trip-informations th {
   font-weight: 300;
   font-size: 18px;
-  color: #071C4D;
+  color: #071c4d;
 }
 .section-details-content .card-details .trip-informations td {
   font-weight: 300;
   font-size: 18px;
-  color: #B1B1B1;
+  color: #b1b1b1;
 }
 .section-details-content .card-details .trip-informations .text-blue {
-  color: #071C4D;
+  color: #071c4d;
   font-weight: bold;
 }
 .section-details-content .card-details .trip-informations .text-orange {
-  color: #FF9E53;
+  color: #ff9e53;
   font-weight: bold;
 }
 .section-details-content .card-details .payment-instructions {
@@ -270,7 +269,7 @@ header .btn-get-started:hover {
 }
 .section-details-content .card-details .bank .bank-item h3 {
   font-size: 18px;
-  color: #071C4D;
+  color: #071c4d;
   margin-bottom: 0;
 }
 .section-details-content .card-details .bank .bank-item p {
@@ -294,7 +293,7 @@ header .btn-get-started:hover {
 .section-details-content .card-details .disclaimer {
   font-weight: 300;
   font-size: 14px;
-  color: #B1B1B1;
+  color: #b1b1b1;
 }
 .section-details-content .card-details .gj-datepicker .datepicker {
   border-right: 0;
@@ -303,11 +302,11 @@ header .btn-get-started:hover {
   padding-right: 30px;
 }
 .section-details-content .card-details .btn-add-now {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #fff;
 }
 .section-details-content .card-details .btn-add-now:hover {
-  background-color: #1B3B86;
+  background-color: #1b3b86;
   color: #fff;
 }
 .section-details-content .card-right {
@@ -320,7 +319,7 @@ header .btn-get-started:hover {
 }
 .section-details-content .features h3 {
   font-size: 18px;
-  color: #071C4D;
+  color: #071c4d;
   margin-bottom: 0;
 }
 .section-details-content .features p {
@@ -345,7 +344,7 @@ header .btn-get-started:hover {
   margin-bottom: 10px;
 }
 .section-details-content .gallery .xzoom-container .xactive {
-  border: 4px solid #1ABC9C;
+  border: 4px solid #1abc9c;
   box-shadow: none;
 }
 .section-details-content .member .member-image {
@@ -356,12 +355,12 @@ header .btn-get-started:hover {
   margin-top: -16px;
 }
 .section-details-content .btn-join-now {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #fff;
   border-radius: 0;
 }
 .section-details-content .btn-join-now:hover {
-  background-color: #FFB57C;
+  background-color: #ffb57c;
   color: #fff;
 }
 
@@ -371,7 +370,7 @@ header .btn-get-started:hover {
 .section-success h1 {
   font-weight: 600;
   font-size: 26px;
-  color: #071C4D;
+  color: #071c4d;
 }
 .section-success p {
   font-weight: 300;
@@ -380,15 +379,16 @@ header .btn-get-started:hover {
 }
 .section-success .btn-home-page {
   border-radius: 4px;
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #fff;
 }
 .section-success .btn-home-page:hover {
-  background-color: #2A488E;
+  background-color: #2a488e;
   color: #fff;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -410,6 +410,13 @@ div .card-bayangan {
 
 footer h5 {
   font-weight: bold;
+  font-size: 16px;
+}
+footer a {
+  font-size: 14px;
+}
+footer .copyright {
+  font-size: 12px;
 }
 
 .section-popular-content .section-popular-travel .card-travel {
@@ -468,6 +475,51 @@ footer h5 {
 
 @media (min-width: 992px) {
   header {
+    padding: 180px 0 165px;
     margin-top: -70px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  header p {
+    font-size: 22px;
+  }
+
+  .section-stats h2 {
+    font-size: 30px;
+  }
+  .section-stats p {
+    font-size: 20px;
+  }
+
+  .section-popular {
+    min-height: 540px;
+  }
+  .section-popular .section-popular-heading {
+    margin-top: 150px;
+  }
+  .section-popular .section-popular-heading h2 {
+    font-size: 40px;
+  }
+  .section-popular .section-popular-heading p {
+    font-size: 18px;
+  }
+
+  .section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 10px;
+  }
+  .section-testimonial-content .card-testimonial h3 {
+    font-size: 20px;
+  }
+
+  footer h5 {
+    font-size: 18px;
+  }
+  footer a {
+    font-size: 16px;
+  }
+  footer .copyright {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=main.css.map */
