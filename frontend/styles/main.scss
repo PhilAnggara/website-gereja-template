@@ -633,6 +633,20 @@ table {
 }
 // Akhir Organisasi
 
+// Pengakuan
+.section-details-content {
+  .card-details {
+    h3 {
+      font-weight: 400;
+      font-size: 16px;
+    }
+    .jabatan {
+      font-weight: bold;
+    }
+  }
+}
+// Akhir Pengakuan
+
 // DESKTOP VERSION
 @media (min-width: 992px) {
   // Header
@@ -699,5 +713,17 @@ table {
   }
   table {
     font-size: 16px;
+  }
+
+  .section-details-content {
+    .card-details {
+      h3 {
+        font-weight: 400;
+        font-size: 20px;
+      }
+      .jabatan {
+        font-weight: bold;
+      }
+    }
   }
 }

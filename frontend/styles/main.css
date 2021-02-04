@@ -482,6 +482,14 @@ table {
   font-weight: 600;
 }
 
+.section-details-content .card-details h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.section-details-content .card-details .jabatan {
+  font-weight: bold;
+}
+
 @media (min-width: 992px) {
   header {
     padding: 180px 0 165px;
@@ -538,5 +546,13 @@ table {
 
   table {
     font-size: 16px;
+  }
+
+  .section-details-content .card-details h3 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .section-details-content .card-details .jabatan {
+    font-weight: bold;
   }
 }/*# sourceMappingURL=main.css.map */
