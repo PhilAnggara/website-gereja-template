@@ -220,6 +220,7 @@ header .btn-get-started:hover {
   background-color: transparent;
   padding: 0;
   margin-bottom: 30px;
+  font-size: 14px;
 }
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
