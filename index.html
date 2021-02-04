@@ -10,81 +10,187 @@
       href="frontend/libraries/bootstrap/css/bootstrap.css"
     />
     <!-- <link rel="stylesheet" href="frontend/libraries/fontawesome-free/css/all.min.css"> -->
-    <!-- <link rel="stylesheet" href="frontend/styles/main.css"> -->
+    <link rel="stylesheet" href="frontend/styles/main.css" />
   </head>
   <body>
-    <!-- Awal Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="">Logo</a>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light">
+        <a href="/" class="navbar-brand">
+          <img src="frontend/images/logo.png" alt="Logo" />
+        </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbar-toggler-right"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-target="#navb"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Beranda</a>
+
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a href="/" class="nav-link active">Beranda</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Jadwal Ibadah</a>
+            <li class="nav-item mx-md-2">
+              <a href="jadwal.html" class="nav-link">Jadwal Ibadah</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
+                class="nav-link dropdown-toggle"
+                id="navbardrop"
                 data-toggle="dropdown"
-                aria-expanded="false"
               >
                 Informasi
               </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Laporan Keuangan</a></li>
-                <li><a class="dropdown-item" href="#">Yang Ber-HUT</a></li>
-              </ul>
+              <div class="dropdown-menu">
+                <a href="laporan.html" class="dropdown-item"
+                  >Laporan Keuangan</a
+                >
+                <a href="hut.html" class="dropdown-item">Yang Ber-HUT</a>
+                <a href="surat.html" class="dropdown-item">Surat</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
+                class="nav-link dropdown-toggle"
+                id="navbardrop"
                 data-toggle="dropdown"
-                aria-expanded="false"
               >
                 Tentang Gereja
               </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Sejarah</a></li>
-                <li><a class="dropdown-item" href="#">Organisasi</a></li>
-                <li><a class="dropdown-item" href="#">Pengakuan Iman</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-item btn btn-primary px-4 tombol ml-" href=""
-                >Masuk</a
-              >
+              <div class="dropdown-menu">
+                <a href="#sejarah" class="dropdown-item">Sejarah</a>
+                <a href="organisasi.html" class="dropdown-item">Organisasi</a>
+                <a href="pengakuan.html" class="dropdown-item"
+                  >Pengakuan Iman</a
+                >
+              </div>
             </li>
           </ul>
+
+          <!-- Mobile Button -->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0">Masuk</button>
+          </form>
+
+          <!-- Desktop Button -->
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Masuk
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <!-- Akhir Navbar -->
+
+    <!-- Header -->
+    <header class="text-center">
+      <h1>GMIM Imanuel Lowian</h1>
+      <p class="mt-3">
+        "Tuhan Mengangkat Kita dari
+        <br />
+        Samudera Raya"
+      </p>
+      <a href="#sejarah" class="btn btn-get-started px-4 mt-4"> Sejarah </a>
+    </header>
+    <!-- Akhir Header -->
+
+    <!-- Body -->
+    <main>
+      <div class="container">
+        <section class="section-stats row justify-content-center" id="stats">
+          <div class="col-3 col-md-2 stats-detail text-center">
+            <h2>288</h2>
+            <p>Jemaat</p>
+          </div>
+          <div class="col-3 col-md-2 stats-detail text-center">
+            <h2>96</h2>
+            <p>Keluarga</p>
+          </div>
+          <div class="col-3 col-md-2 stats-detail text-center">
+            <h2>4</h2>
+            <p>Kolom</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="section-popular">
+        <div class="container">
+          <div class="row">
+            <div id="sejarah" class="col text-center section-popular-heading">
+              <h2>Sejarah Gereja</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-testimonial-content"
+        id="testimonialContent"
+      >
+        <div class="container">
+          <div class="section-popular-travel row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="card card-testimonial text-center card-bayangan">
+                <div class="testimonial-content">
+                  <h3 class="sejarah mb-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ullam adipisci impedit voluptate consectetur voluptates non
+                    ut quo, consequatur totam mollitia rem sed, odio velit
+                    similique ex cumque, aperiam tempora dolore!
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Akhir Body -->
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="row">
+              <div class="col-6 col-lg-6">
+                <h5>TENTANG GEREJA</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#sejarah">Sejarah</a></li>
+                  <li><a href="organisasi.html">Struktur Organisasi</a></li>
+                  <li><a href="pengakuan.html">Pengakuan Iman</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-lg-6">
+                <h5>KONTAK</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Lowian, Kec. Langowan Barat</a></li>
+                  <li><a href="#">Minahasa, Sulawesi Utara</a></li>
+                  <li><a href="#">0821-8893-8709</a></li>
+                  <li><a href="#">gmim.imanuel.lowian@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <!-- Akhir Navbar -->
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2020 Copyright • All rights reserved • Made in Manado
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
 
     <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
