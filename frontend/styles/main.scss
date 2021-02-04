@@ -55,7 +55,7 @@ header {
   h1,
   p {
     color: #fff;
-    text-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 6px #000;
   }
 
   h1 {
@@ -299,7 +299,7 @@ header {
   }
 
   .card-details {
-    padding: 30px;
+    padding: 10px;
     border-radius: 11px;
 
     h1 {
@@ -555,6 +555,16 @@ footer {
 }
 // Akhir Index
 
+// Jadwal
+.nama-grup {
+  font-size: 18px !important;
+}
+table {
+  // mobile
+  font-size: 15px;
+}
+// Akhir Jadwal
+
 // Surat
 .section-popular-content {
   .section-popular-travel {
@@ -681,5 +691,12 @@ footer {
     .copyright {
       font-size: 16px;
     }
+  }
+
+  .nama-grup {
+    font-size: 22px !important;
+  }
+  table {
+    font-size: 16px;
   }
 }
